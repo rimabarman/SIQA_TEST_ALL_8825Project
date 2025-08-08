@@ -64,6 +64,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2076
+- serviceName: project.siqa_test_all_8825.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_TEST_ALL_8825Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqa_test_all_8825.integrations:deepclonetest
   packages:
   - name: SIQA_TEST_ALL_8825Project
